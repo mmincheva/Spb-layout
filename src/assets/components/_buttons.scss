@@ -1,0 +1,36 @@
+.btns:link, .btns:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    border-width: 1px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: 0.2s, border 0.2s, color 0.2s;    
+}
+
+.btn-full:link, .btn-full:visited {
+    background-color: theme-color("btn-green");
+    border: 1px solid theme-color("btn-green");
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-sign:link, .btn-sign:visited {    
+    background-color: theme-color("btn-gray");
+    cursor: pointer;
+    color: rgb(134, 151, 162);
+    margin-right: 1rem;
+}
+
+.btns:hover, .btns:active {
+    color: white;
+}
+
+.btn-full:hover, .btn-full:active{    
+    background-color: theme-color("btn-light-green");
+}
+
+.btn-sign:hover, .btn-sign:active {
+    // border: 1px solid theme-color("btn-gray");
+    color: white;
+}

@@ -1,0 +1,33 @@
+// * {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;   
+//     overflow: hidden;
+    
+// }
+
+
+
+.main-container {
+    background-color: $body-bg;
+}
+
+
+body, html , #root {
+    background-color: $body-bg;   
+}
+.main-section {
+    background-color: $body-bg;
+    max-width: 20rem;
+    padding: 0.8rem 0px;
+    margin: 0.75rem 0px;  
+    overflow: hidden;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+// .logo-container {
+//     width: 9rem;
+// }
+
+

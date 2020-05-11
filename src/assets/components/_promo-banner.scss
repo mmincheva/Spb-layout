@@ -1,0 +1,41 @@
+.promo-banner {
+    flex: 1;
+    background-color: theme-color("section-promo-banners");
+    border-radius: $border-radius-xxlg;
+    position: relative;
+  
+    .promo-description {
+        color: #8697a2;
+        font-size: 0.875rem;
+        font-weight: 400;
+    }  box-shadow: $card-box-shadow;
+
+    + .promo-banner {
+        margin-left: $grid-gutter-width;
+    }
+    .banner-info {
+        position: absolute;
+        padding: 2rem;
+        height: 100%;
+        width: 60%;
+    }
+
+    .promo-title {
+        text-transform: uppercase;
+        font-size: $font-size-lg;
+        font-weight: $font-weight-bold;
+        color: color-yiq(theme-color("section-bg"));
+    }
+
+    .promo-description {
+        color: rgba(color-yiq(theme-color("section-bg")), .7);
+    }
+
+    .promo-button {
+        width: 60%;
+        height: auto;
+        text-align: center;
+        padding: 0.5rem 0px;
+    }
+
+}

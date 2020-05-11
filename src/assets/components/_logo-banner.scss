@@ -1,0 +1,21 @@
+.logo-container {
+    box-sizing: border-box;
+    align-items: center;
+    padding: 0px 1rem;
+    border-right: 1px solid rgb(49, 55, 63);
+}
+.logo-img {
+    width: 30px;
+    height: auto;
+}
+.logo-info{
+    margin-left: 0.6rem;
+    font-size: $font-size-sm;
+    font-family: $font-family-sans-serif;
+    font-weight: 400;
+    color: #777e91;
+}
+
+.logo-description {
+    margin-right: 0.5rem;
+}

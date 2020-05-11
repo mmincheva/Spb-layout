@@ -1,0 +1,29 @@
+.promos {
+    margin-bottom: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-bottom: 1px solid #494848d1;
+}
+
+.promotion-content {
+    width: 52%;
+    display: flex;
+    align-content: center;
+    padding: 2rem;
+    flex-flow: wrap;
+    margin: 1rem;
+}
+
+.promo-banner{ 
+.promo-image {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 95%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 0rem 1rem 1rem 0rem;
+}
+}
